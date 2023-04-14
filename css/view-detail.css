@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+#installment-contant {
+    padding: 40px 80px 50px 40px;
+    background: #F5F7FA;
+}
+
+#installment-contant .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #B0BABF;
+}
+
+#installment-contant .breadcrumb .breadcrumb-item {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0BABF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#installment-contant .breadcrumb .breadcrumb-item:last-child {
+    color: #202123;
+}
+
+
+
+
+
+
+
+
+
+.installment-heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #003B74;
+    margin: 30px 0px;
+}
+
+#main-contant-AI {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+
+#installment-input-section {
+    padding-bottom: 30px;
+}
+
+#main-contant-AI #installment-number {
+    padding: 0px 10px 0px 30px;
+}
+
+#main-contant-AI #installment-number .form-select {
+    padding: 7px 15px;
+    border: 1px solid #706F6F !important;
+}
+
+#main-contant-AI #installment-number .form-select:focus {
+    border: 1px solid #706F6F;
+    box-shadow: none;
+}
+
+#main-contant-AI #installment-type .form-select {
+    width: 200px;
+    padding: 7px 15px;
+    border: 1px solid #706F6F !important;
+    border-radius: 5px;
+}
+
+#main-contant-AI #installment-type .form-select:focus {
+    border: 1px solid #706F6F;
+    box-shadow: none;
+}
+
+#main-contant-AI #installment-search {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+#main-contant-AI #installment-search .search-section {
+    background: #FFFFFF;
+    border: 1px solid #706F6F;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#main-contant-AI #installment-search .search-section input {
+    width: 72%;
+    float: left;
+    border: none;
+    height: 100%;
+}
+
+#main-contant-AI #installment-search .search-section input::placeholder {
+    font-size: 15px;
+    color: #706F6F;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-contant-AI #installment-search .search-section input:focus {
+    box-shadow: none;
+}
+
+#main-contant-AI #installment-search .search-section i {
+    padding: 11px 15px 11px 0px;
+    color: #706F6F;
+}
+
+
+
+.installment-btm-section {
+    padding-top: 30px;
+}
+
+#main-contant-AI .installment-btm-section .table-Results {
+    display: flex;
+    align-items: center;
+}
+
+#main-contant-AI .installment-btm-section .table-Results p {
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+/* BEGIN: TABLE */
+
+.installment-table .hack1 {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.installment-table .hack2 {
+    display: table-cell;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.installment-table .table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.installment-table .table td {
+    border-bottom: 1px solid rgba(112, 111, 111, 0.6);
+}
+
+.installment-table .table thead tr {
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+}
+
+/* thead area */
+.installment-table .table thead tr th {
+    border: none !important;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.installment-table .table thead tr th:first-child {
+    padding: 16px 40px 16px 30px;
+}
+
+.installment-table .table thead tr th:nth-child(2) {
+    padding: 16px 97px 16px 0px;
+}
+
+.installment-table .table thead tr th:nth-child(3),
+.installment-table .table thead tr th:nth-child(4),
+.installment-table .table thead tr th:nth-child(5),
+.installment-table .table thead tr th:nth-child(7),
+.installment-table .table thead tr th:nth-child(9),
+.installment-table .table thead tr th:nth-child(10),
+.installment-table .table thead tr th:nth-child(11),
+.installment-table .table thead tr th:nth-child(12),
+.installment-table .table thead tr th:nth-child(14) {
+    padding: 16px 50px 16px 0px;
+}
+
+.installment-table .table thead tr th:nth-child(8) {
+    padding: 16px 166px 16px 0px;
+}
+
+.installment-table .table thead tr th:nth-child(6) {
+    padding: 16px 107px 16px 0px;
+}
+
+.installment-table .table thead tr th:nth-child(13) {
+    padding: 16px 83px 16px 0px;
+}
+
+.installment-table .table thead tr th:last-child {
+    padding: 16px 78px 16px 0px;
+}
+
+/* tbody area */
+.installment-table .table tbody tr td {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #706F6F;
+}
+
+.installment-table .table tbody tr td:first-child {
+    padding: 23px 40px 17px 30px;
+}
+
+.installment-table .table tbody tr td:nth-child(2),
+.installment-table .table tbody tr td:nth-child(3),
+.installment-table .table tbody tr td:nth-child(4),
+.installment-table .table tbody tr td:nth-child(5),
+.installment-table .table tbody tr td:nth-child(6),
+.installment-table .table tbody tr td:nth-child(7),
+.installment-table .table tbody tr td:nth-child(8),
+.installment-table .table tbody tr td:nth-child(9),
+.installment-table .table tbody tr td:nth-child(10),
+.installment-table .table tbody tr td:nth-child(11),
+.installment-table .table tbody tr td:nth-child(12),
+.installment-table .table tbody tr td:nth-child(13),
+.installment-table .table tbody tr td:nth-child(14) {
+    padding: 20px 0px 15px 0px;
+}
+
+.installment-table .table tbody tr td:last-child {
+    padding: 20px 0px 15px 0px;
+}
+
+.installment-table .table tbody tr td i {
+    margin-left: 15px;
+}
+
+.installment-table .table tbody tr td i:first-child {
+    color: #0A4279;
+    margin: 0px;
+}
+
+.installment-table .table tbody tr td i:last-child {
+    color: #FF0707;
+}
+
+/* END: TABLE */
+
+/* BEGIN: PIGINATION */
+
+#main-contant-AI .installment-btm-section .table-pagination {
+    padding-right: 30px !important;
+}
+
+#main-contant-AI .installment-btm-section .table-pagination .pagination .page-item {
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+#main-contant-AI .installment-btm-section .table-pagination .pagination .page-item .page-link {
+    border: 1px solid #AAA9AD;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AAA9AD;
+}
+
+#main-contant-AI .installment-btm-section .table-pagination .pagination .page-item .page-link:hover {
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#main-contant-AI .installment-btm-section .table-pagination .pagination .page-item .page-link:focus {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    box-shadow: none;
+}
+
+#main-contant-AI .installment-btm-section .table-pagination .pagination .page-item .p-btn {
+    border: 1px solid #AAA9AD;
+    border-radius: 30px;
+    padding: 6px 10px;
+}
+
+#main-contant-AI .installment-btm-section .table-pagination .pagination .page-item .n-btn {
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 60px !important;
+}
+
+/* END: PIGINATION */
+
+
+
+
+/* BEGIN: MEDIA QUERY */
+@media (max-width: 991px) {
+    #installment-contant {
+        padding: 40px;
+    }
+
+    #main-contant-AI #installment-number .form-select {
+        padding: 7px 7px;
+        width: 63px;
+    }
+
+    #main-contant-AI #installment-search .search-section input {
+        width: 70%;
+    }
+
+    #main-contant-AI #installment-btn button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    #installment-contant {
+        padding: 40px;
+    }
+
+    #installment-input-section {
+        padding-bottom: 20px;
+    }
+
+    #main-contant-AI #installment-number,
+    #main-contant-AI #installment-type,
+    #main-contant-AI #installment-search,
+    #main-contant-AI #installment-btn {
+        padding: 0px 15px 15px 15px;
+    }
+
+    #main-contant-AI #installment-type .form-select,
+    #main-contant-AI #installment-search .search-section {
+        width: 100%;
+    }
+
+    #main-contant-AI #installment-btn button {
+        height: 40px;
+    }
+
+    #main-contant-AI #installment-number .form-select {
+        width: 100%;
+    }
+
+    #main-contant-AI #installment-search .search-section input {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 575px) {
+    #installment-contant {
+        padding: 30px;
+    }
+
+    .installment-heading {
+        font-size: 14px;
+        margin: 15px 0px;
+    }
+
+    #installment-input-section {
+        padding-bottom: 20px;
+    }
+
+    #main-contant-AI #installment-number,
+    #main-contant-AI #installment-type,
+    #main-contant-AI #installment-search,
+    #main-contant-AI #installment-btn {
+        padding: 0px 15px 10px 15px;
+    }
+
+    #main-contant-AI #installment-type .form-select,
+    #main-contant-AI #installment-number .form-select {
+        width: 100%;
+        padding: 2px 15px;
+    }
+
+    #main-contant-AI #installment-search .search-section,
+    #main-contant-AI #installment-btn button,
+    #main-contant-AI #installment-search .search-section {
+        width: 100%;
+        height: 30px;
+    }
+
+    #main-contant-AI #installment-search .search-section i {
+        padding: 6px 15px 6px 0px;
+    }
+
+    /* table */
+    .installment-table .table thead tr th {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .installment-table .table tbody tr td {
+        padding-top: 15px !important;
+        padding-bottom: 10px !important;
+    }
+
+    /* table */
+
+
+    .installment-btm-section {
+        padding-top: 20px;
+    }
+
+    #main-contant-AI .installment-btm-section .table-Results {
+        justify-content: center;
+    }
+
+    #main-contant-AI .installment-btm-section .table-Results p {
+        font-size: 12px;
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #main-contant-AI .installment-btm-section .table-pagination {
+        padding: 0px 12px !important;
+    }
+
+    #main-contant-AI .installment-btm-section .table-pagination {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    #main-contant-AI #installment-search .search-section input {
+        width: 82%;
+    }
+
+}
+
+@media (max-width: 380px) {
+    #installment-contant {
+        padding: 20px;
+    }
+
+    #installment-contant .breadcrumb .breadcrumb-item {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .installment-heading {
+        font-size: 14px;
+        margin: 15px 0px;
+    }
+
+    #installment-input-section {
+        padding-bottom: 20px;
+    }
+
+    #main-contant-AI #installment-number,
+    #main-contant-AI #installment-type,
+    #main-contant-AI #installment-search,
+    #main-contant-AI #installment-btn {
+        padding: 0px 15px 10px 15px;
+    }
+
+    #main-contant-AI #installment-type .form-select,
+    #main-contant-AI #installment-number .form-select {
+        width: 100%;
+        padding: 2px 15px;
+    }
+
+    #main-contant-AI #installment-search .search-section,
+    #main-contant-AI #installment-btn button,
+    #main-contant-AI #installment-search .search-section {
+        width: 100%;
+        height: 30px;
+    }
+
+    #main-contant-AI #installment-search .search-section i {
+        padding: 6px 15px 6px 0px;
+    }
+
+    /* table */
+    .installment-table .table thead tr th {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .installment-table .table tbody tr td {
+        padding-top: 15px !important;
+        padding-bottom: 10px !important;
+    }
+
+    /* table */
+
+    .installment-btm-section {
+        padding-top: 20px;
+    }
+
+    #main-contant-AI .installment-btm-section .table-Results {
+        justify-content: center;
+    }
+
+    #main-contant-AI .installment-btm-section .table-Results p {
+        font-size: 12px;
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #main-contant-AI .installment-btm-section .table-pagination {
+        padding-right: 10px !important;
+    }
+
+}
+
+/* END: MEDIA QUERY */

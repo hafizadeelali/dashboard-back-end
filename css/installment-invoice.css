@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#vt-main-section .modal-header {
+    display: block !important;
+    border-bottom: none;
+    padding: 40px 30px 20px 30px;
+}
+
+#vt-main-section .modal-body {
+    padding: 0px 30px 0px 30px;
+}
+
+#vt-main-section .header-invoice {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 16px;
+    color: #003B74;
+}
+
+#vt-main-section .invoice-headding {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#vt-main-section .invoice-data {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#vt-main-section .invoice-data-background {
+    background: #FFFFFF;
+    border: 1px solid #003B74;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#vt-main-section .get {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#vt-main-section .bill-to {
+    display: block;
+    padding: 7px 0px 7px 0px;
+    background: #003B74;
+    border-radius: 5px;
+    margin: 0px 538px 0px 0px;
+}
+
+#vt-main-section .invoice-description-headding {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+#vt-main-section .container-fluid .row .ps-3 {
+    padding: 16px 0px 16px 30px !important;
+}
+
+#vt-main-section .payment {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #706F6F;
+    display: flex;
+    align-items: center;
+}
+
+#vt-main-section .issuing-sign-padding {
+    padding: 50px 0px 50px 0px;
+}
+
+#vt-main-section .issuing-sign {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#vt-main-section .total-amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+#vt-main-section .sign-line {
+    background: #AEA7A7;
+    transform: rotate(-90deg);
+}
+
+#vt-main-section .custom-padding-top-bottom {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#vt-main-section .custom-padding-top-30 {
+    padding-top: 30px;
+}
+
+#vt-main-section .custom-padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+#vt-main-section .custom-padding-top-40 {
+    padding-top: 40px;
+}
+
+#vt-main-section .custom-padding-bottom-40 {
+    padding-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #vt-main-section .invoive-logo {
+        width: 95%;
+    }
+
+    #vt-main-section .header-invoice {
+        font-size: 30px;
+    }
+
+    #vt-main-section .bill-to {
+        padding: 6px 0px 6px 0px;
+    }
+
+    #vt-main-section .invoice-headding {
+        font-size: 12px;
+    }
+
+    #vt-main-section .invoice-data {
+        font-size: 9px;
+    }
+
+    #vt-main-section .invoice-description-headding {
+        font-size: 12px;
+    }
+
+    #vt-main-section .payment {
+        font-size: 11px;
+    }
+
+    #vt-main-section .issuing-sign {
+        font-size: 14px;
+    }
+
+    #vt-main-section .total-amount {
+        font-size: 15px;
+    }
+
+    #vt-main-section .pt-2 {
+        float: right;
+    }
+
+    #vt-main-section .media {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #vt-main-section .invoive-logo {
+        width: 90%;
+    }
+
+    #vt-main-section .header-invoice {
+        font-size: 25px;
+    }
+
+    #vt-main-section .bill-to {
+        padding: 6px 0px 6px 0px;
+    }
+
+    #vt-main-section .invoice-headding {
+        font-size: 12px;
+    }
+
+    #vt-main-section .invoice-data {
+        font-size: 9px;
+    }
+
+    #vt-main-section .invoice-description-headding {
+        font-size: 12px;
+    }
+
+    #vt-main-section .payment {
+        font-size: 10px;
+    }
+
+    #vt-main-section .issuing-sign {
+        font-size: 14px;
+    }
+
+    #vt-main-section .total-amount {
+        font-size: 15px;
+    }
+
+    #vt-main-section .pt-2 {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #vt-main-section .invoive-logo {
+        width: 110%;
+    }
+
+    #vt-main-section .header-invoice {
+        font-size: 20px;
+    }
+
+    #vt-main-section .bill-to {
+        padding: 3px 0px 3px 0px
+    }
+
+    #vt-main-section .invoice-headding {
+        font-size: 7px;
+    }
+
+    #vt-main-section .invoice-data {
+        font-size: 9px;
+    }
+
+    #vt-main-section .invoice-description-headding {
+        font-size: 8px;
+    }
+
+    #vt-main-section .payment {
+        font-size: 6px;
+    }
+
+    #vt-main-section .issuing-sign {
+        font-size: 10px;
+    }
+
+    #vt-main-section .total-amount {
+        font-size: 11px;
+    }
+
+    #vt-main-section .pt-2 {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+    #vt-main-section .invoive-logo {
+        width: 110%;
+    }
+
+    #vt-main-section .header-invoice {
+        font-size: 20px;
+    }
+
+    #vt-main-section .bill-to {
+        padding: 2px 0px 2px 0px
+    }
+
+    #vt-main-section .invoice-headding {
+        font-size: 7px;
+    }
+
+    #vt-main-section .invoice-data {
+        font-size: 9px;
+    }
+
+    #vt-main-section .invoice-description-headding {
+        font-size: 8px;
+    }
+
+    #vt-main-section .payment {
+        font-size: 6px;
+    }
+
+    #vt-main-section .issuing-sign {
+        font-size: 10px;
+    }
+
+    #vt-main-section .total-amount {
+        font-size: 11px;
+    }
+
+    #vt-main-section .pt-2 {
+        float: right;
+        width: 70%;
+    }
+
+    #vt-main-section .issuing-sign-padding {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #vt-main-section .custom-padding-top-bottom {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #vt-main-section h5 {
+        margin-bottom: 0px;
+    }
+
+    #vt-main-section .m320 {
+        padding-bottom: 10px;
+    }
+}

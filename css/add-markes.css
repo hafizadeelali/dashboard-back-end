@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+a {
+    text-decoration: none;
+}
+#markes-detail {
+    background: #FFFFFF;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#markes-detail .col-md-4 button {
+    margin-top: 30px;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+#markes-detail .col-md-4 label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+#markes-detail .col-md-4 select {
+    background-color: #F5F7FA;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+#markes-detail .col-md-4 select:focus {
+    box-shadow: none;
+}
+
+#markes-detail .col-md-4 select option {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#markes-detail .col-md-4 button:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 575px) {
+    #markes-detail .col-md-4 select {
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        font-size: 12px;
+    }
+}

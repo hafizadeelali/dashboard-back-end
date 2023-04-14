@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #F8FCFF;
+}
+
+#create-betch-section {
+    padding: 40px 80px 50px 40px;
+}
+
+#create-betch-section .breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0BABF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#create-betch-section .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #B0BABF;
+}
+
+#create-betch-section .breadcrumb .breadcrumb-item:last-child {
+    color: #202123;
+}
+
+#create-btech-heading h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #003B74;
+    padding: 30px 0px;
+}
+
+#betch-table-area {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 0px 40px 0px;
+}
+
+#betch-table-area .table thead tr th {
+    background: #003B74;
+    border: 1px solid #706F6F;
+    border-radius: 0px;
+    padding: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+#betch-table-area .table tbody tr td {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #202123;
+    padding: 12px;
+
+}
+
+#betch-table-area #expected-result-btn {
+    float: right;
+    padding: 40px 30px 0px 0px;
+}
+
+#betch-table-area #expected-result-btn button {
+    width: 170px;
+    height: 40px;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+#betch-table-area #expected-result-btn button:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    #create-betch-section {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    #create-betch-section {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    #create-betch-section .breadcrumb .breadcrumb-item {
+        font-size: 10px;
+    }
+
+    #create-betch-section {
+        padding: 20px;
+    }
+
+}
+
+/* @media (max-width: 991px) {} */

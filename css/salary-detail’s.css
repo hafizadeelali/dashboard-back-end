@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#vt-main-section section {
+    background: linear-gradient(123.21deg, #EAEBF0 60.58%, #D8D9DE 89.05%);
+}
+
+#vt-main-section #salary-detail’s {
+    padding: 40px 80px 50px 40px;
+}
+
+#vt-main-section #salary-detail’s .breadcrumb {
+    margin-bottom: 0px !important;
+}
+
+#vt-main-section #salary-detail’s .breadcrumb-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0BABF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#vt-main-section #salary-detail’s .breadcrumb-item+.breadcrumb-item::before {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0BABF;
+    flex: none !important;
+    order: 2 !important;
+    flex-grow: 0 !important;
+}
+
+#vt-main-section #salary-detail’s #breadcrumb-ancer-tag {
+    color: #202123;
+    text-decoration: none;
+}
+
+#vt-main-section #salary-detail’s .row-padding-top-bottom {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#vt-main-section #salary-detail’s #form .row-padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+#vt-main-section #salary-detail’s .custom-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#vt-main-section #salary-detail’s .table>:not(caption)>*>* {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#vt-main-section #salary-detail’s .table>thead {
+    background: #003B74;
+    border: 1px solid #706F6F !important;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+#vt-main-section #salary-detail’s .table {
+    border: 1px solid #706F6F !important;
+}
+
+#vt-main-section #salary-detail’s h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #003B74;
+    margin-bottom: 0px !important;
+}
+
+#vt-main-section #salary-detail’s #form {
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#vt-main-section #salary-detail’s .custom-button-1 {
+    /* padding: 9px 102px 9px 103px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+}
+
+#vt-main-section #salary-detail’s .custom-button-2 {
+    padding: 11px 14px 11px 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: #1A77F8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#vt-main-section #salary-detail’s .custom-button-3 {
+    padding: 12px 59px 12px 59px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#vt-main-section #salary-detail’s .col-lg-4 .form-control {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.6);
+    height: 35px;
+}
+
+#vt-main-section #salary-detail’s .form-control:focus {
+    box-shadow: none;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+#vt-main-section #salary-detail’s .table-responsive {
+    padding-bottom: 50px;
+}
+
+#vt-main-section #salary-detail’s .btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #vt-main-section #salary-detail’s {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #vt-main-section #salary-detail’s {
+        padding: 40px;
+    }
+
+    #vt-main-section #salary-detail’s .breadcrumb-item {
+        font-size: 11px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-1 {
+        font-size: 14px !important;
+        width: 100%;
+    }
+
+    #vt-main-section #salary-detail’s .custom-label {
+        padding-top: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .search {
+        padding-top: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-3 {
+        padding: 12px 45px 11px 45px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #vt-main-section #salary-detail’s {
+        padding: 30px;
+    }
+
+    #vt-main-section #salary-detail’s .breadcrumb-item {
+        font-size: 6px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-1 {
+        font-size: 12px !important;
+        width: 100%;
+    }
+
+    #vt-main-section #salary-detail’s .custom-label {
+        padding-top: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .search {
+        padding-top: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .table>:not(caption)>*>* {
+        font-size: 12px;
+    }
+
+    #vt-main-section #salary-detail’s .row-padding-top-bottom {
+        padding-bottom: 20px !important;
+    }
+
+    #vt-main-section #salary-detail’s h3 {
+        font-size: 16px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-2 {
+        font-size: 13px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-3 {
+        font-size: 13px;
+        padding: 10px 30px 10px 30px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+    #vt-main-section #salary-detail’s {
+        padding: 20px;
+    }
+
+    #vt-main-section #salary-detail’s .breadcrumb-item {
+        font-size: 7px;
+    }
+
+    #vt-main-section #salary-detail’s h3 {
+        font-size: 14px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-1 {
+        font-size: 12px !important;
+        width: 100%;
+    }
+
+    #vt-main-section #salary-detail’s .custom-label {
+        padding-top: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .search {
+        padding-top: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .table>:not(caption)>*>* {
+        font-size: 10px;
+    }
+
+    #vt-main-section #salary-detail’s .row-padding-top-bottom {
+        padding-bottom: 15px !important;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-2 {
+        font-size: 12px;
+        padding: 8px 9px 8px 9px;
+    }
+
+    #vt-main-section #salary-detail’s .custom-button-3 {
+        font-size: 12px;
+        padding: 8px 25px 8px 25px;
+    }
+}

@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #F8FCFF;
+}
+
+#create-betch-section {
+    padding: 40px 80px 50px 40px;
+}
+
+#create-betch-section .breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0BABF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#create-betch-section .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #B0BABF;
+}
+
+#create-betch-section .breadcrumb .breadcrumb-item:last-child {
+    color: #202123;
+}
+
+#create-btech-heading h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #003B74;
+    padding: 30px 0px;
+}
+
+/* BEGIN: BETCH DETAIL */
+#betch-detali {
+    background: #FFFFFF;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#betch-detali .col-md-4 label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+#betch-detali .col-md-4 input {
+    width: 100%;
+    height: 35px;
+    background: #F5F7FA;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#betch-detali .col-md-4 select {
+    width: 100%;
+    height: 35px;
+    background-color: #F5F7FA;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+}
+
+#betch-detali .col-md-4 button {
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+/* END: BETCH DETAIL */
+
+#betch-heading h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #003B74;
+    padding: 30px 0px;
+}
+
+#betch-table-area {
+    background: #FFFFFF;
+    border: 0.3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px 0px 50px;
+}
+
+
+/* table detail */
+#betch-table-area #table-detail-area {
+    padding: 0px 18px 30px 18px;
+}
+
+#betch-table-area .betch-select-number select {
+    width: 63px;
+    height: 40px;
+    padding: 6px 10px;
+}
+
+#betch-table-area #table-detail-area .betch-search-box input {
+    border: 1px solid #706F6F;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#betch-table-area #table-detail-area .betch-search-box input::placeholder {
+    background-image: url(../img/betch-search-icon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#betch-table-area #table-detail-area .betch-search-box input:focus {
+    box-shadow: none;
+}
+
+#betch-table-area .betch-detali-btn button {
+    background: #1A77F8;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+#betch-table-area .betch-detali-btn button:hover {
+    color: #FFFFFF;
+}
+
+#betch-table-area .betch-detali-btn button:focus {
+    box-shadow: none;
+}
+
+/* table detail */
+
+
+
+/* BEGIN: TABLE */
+
+.installment-table .hack1 {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.installment-table .hack2 {
+    display: table-cell;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.installment-table .table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.installment-table .table td {
+    border-bottom: 1px solid rgba(112, 111, 111, 0.6);
+}
+
+.installment-table .table thead tr {
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+}
+
+/* thead area */
+.installment-table .table thead tr th {
+    border: none !important;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding: 16px 25px;
+}
+
+.installment-table .table thead tr th:first-child {
+    padding: 15px 5px 16px 30px;
+}
+
+/* tbody area */
+.installment-table .table tbody tr td {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #706F6F;
+    padding: 16px 25px;
+}
+
+.installment-table .table tbody tr td:first-child {
+    padding: 16px 5px 17px 30px;
+}
+
+/* END: TABLE */
+.betch-select-item {
+    margin-left: 18px !important;
+}
+
+/* BEGIN: PIGINATION */
+
+.installment-btm-section .table-pagination {
+    padding-right: 30px !important;
+}
+
+.installment-btm-section .table-pagination .pagination .page-item {
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.installment-btm-section .table-pagination .pagination .page-item .page-link {
+    border: 1px solid #AAA9AD;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AAA9AD;
+}
+
+.installment-btm-section .table-pagination .pagination .page-item .page-link:hover {
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.installment-btm-section .table-pagination .pagination .page-item .page-link:focus {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    box-shadow: none;
+}
+
+.installment-btm-section .table-pagination .pagination .page-item .p-btn {
+    border: 1px solid #AAA9AD;
+    border-radius: 30px;
+    padding: 6px 10px;
+}
+
+.installment-btm-section .table-pagination .pagination .page-item .n-btn {
+    background: linear-gradient(180deg, #003B74 0%, rgba(0, 59, 116, 0) 463%);
+    border-radius: 5px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 60px !important;
+}
+
+.table-Results {
+    display: flex;
+    align-items: center;
+}
+
+.table-Results p {
+    margin: 0px 0px 0px 30px;
+    font-family: 'Prompt' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+}
+
+/* END: PIGINATION */
+@media (max-width: 991px) {
+    #create-betch-section {
+        padding: 40px;
+    }
+
+    .betch-detali-btn {
+        padding: 0px 3px;
+    }
+
+    #betch-table-area .betch-detali-btn button {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #betch-table-area .betch-select-number select {
+        width: 100%;
+        height: 35px;
+        /* padding: 6px 10px; */
+        margin-bottom: 10px;
+    }
+
+    .betch-select-item {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+        margin-left: 0px !important;
+    }
+
+    #betch-table-area #table-detail-area .betch-search-box input {
+        height: 35px;
+        margin-bottom: 10px;
+    }
+
+    #betch-table-area .betch-detali-btn button {
+        height: 35px;
+    }
+
+    .betch-detali-btn {
+        padding: 0px 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    #create-betch-section {
+        padding: 30px;
+    }
+
+    .table-Results {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+
+    .installment-btm-section .table-pagination {
+        padding-right: 0px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    #betch-detali {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    #create-betch-section {
+        padding: 20px;
+    }
+
+}
